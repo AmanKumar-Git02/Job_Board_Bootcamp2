@@ -1,8 +1,14 @@
 import React from "react";
 
-function Navbar(){
-    return(
-        <div className = "navbar">Job Board</div>
+function Navbar() {
+    let name ="Ali";
+    return (
+        <>
+        <div className="navbar">
+            <h1>Job Board</h1>
+            </div>
+    
+        </>
     );
 }
 
